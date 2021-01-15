@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
@@ -56,9 +57,31 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divLogo {
+    /* width: 6.25%;
+    height: 50px;
+    background: img;
+    margin: 20px 2.5%; */
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+}
+
 nav a {
     text-decoration: none;
 }
+
+.navHeader {
+    display: flex;
+    align-content:space-between;
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
