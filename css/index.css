@@ -299,3 +299,23 @@ footer nav a {
     display: flex;
     flex-direction: column;
 }
+
+.aboutText {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.aboutButtons {
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 12%;
+    margin-bottom: 0%;
+    padding: 2% 2%;
+    text-align: center;
+}
