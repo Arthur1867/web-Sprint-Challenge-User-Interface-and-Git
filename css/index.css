@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -290,14 +290,28 @@ footer nav a {
 
 /* About page css*/
 
-.aboutMeatSection {
-    display: flex;
-    flex-wrap: wrap;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.strategySection {
+.aboutBabyTitle {
+    margin-bottom: 3%;
+}
+
+.aboutMeatSection {  /* outer container for middle 4 sections*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.workFlowExamples {  /* each of the for middle section containers, Stra, We Wo, Plac, & Collab */
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 50%;;
+    border-bottom-style: dotted;
 }
 
 .aboutText {
@@ -305,6 +319,8 @@ footer nav a {
     margin-right: 0%;
     margin-top: 5%;
     margin-bottom: 0%;
+    font-size: 16px;
+    
 }
 
 .aboutButtons {
@@ -312,10 +328,21 @@ footer nav a {
     font-size: 16px;
     border: 2px solid black;
     border-radius: 10px;
+    width: 32%;
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 12%;
-    margin-bottom: 0%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     padding: 2% 2%;
     text-align: center;
+}
+
+.letsWorkSection {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.strategySection {
+    display: flex;
+    flex-direction: column;
 }
