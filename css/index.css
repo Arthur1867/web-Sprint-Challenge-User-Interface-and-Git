@@ -287,3 +287,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page css*/
+
+.aboutMeatSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategySection {
+    display: flex;
+    flex-direction: column;
+}
