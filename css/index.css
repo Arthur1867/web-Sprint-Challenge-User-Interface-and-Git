@@ -75,6 +75,11 @@ header {
 
 nav a {
     text-decoration: none;
+    color: black;
+    flex: 1;
+    text-align: center;
+    margin: 1.00em;
+    padding: 1.40em;
 }
 
 .navHeader {
@@ -128,7 +133,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .dodgerblue {
+/* .middle-content .boxes .dodgerblue {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -137,7 +142,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .teal {
     width: 12.5%;
